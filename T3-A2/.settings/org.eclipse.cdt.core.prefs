@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.release.1848680746/LIB_PATH/delimiter=;
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.release.1848680746/LIB_PATH/operation=replace
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.release.1848680746/LIB_PATH/value=/home/egr/gcc-arm-none-eabi-4_8-2013q4
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.release.1848680746/PATH/delimiter=;
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.release.1848680746/PATH/operation=replace
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.release.1848680746/PATH/value=/usr/local/sbin\:/usr/local/bin\:/usr/sbin\:/usr/bin\:/sbin\:/bin\:/usr/games\:/usr/local/games\:/home/egr/gcc-arm-none-eabi-4_8-2013q4/bin\:/home/egr/gcc-arm-none-eabi-4_8-2013q4/arm-none-eabi/bin
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.release.1848680746/append=true
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.release.1848680746/appendContributed=true

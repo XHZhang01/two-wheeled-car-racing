@@ -1,0 +1,487 @@
+Archive member included because of file (symbol)
+
+/home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(init.o)
+                              (Entry)
+/home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+                              Debug/T2-A1.o (IntRegister)
+/home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+                              /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(init.o) (start_boot)
+/home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cp15.o)
+                              /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o) (CP15VectorBaseAddrSet)
+/home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+                              /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o) (CPUIntStatus)
+/home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(exceptionhandler.o)
+                              /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o) (IRQHandler)
+/home/egr/gcc-arm-none-eabi-4_8-2013q4/lib/gcc/arm-none-eabi/4.8.3//libgcc.a(_udivsi3.o)
+                              (__aeabi_uidiv)
+/home/egr/gcc-arm-none-eabi-4_8-2013q4/lib/gcc/arm-none-eabi/4.8.3//libgcc.a(_divsi3.o)
+                              (__aeabi_idiv)
+/home/egr/gcc-arm-none-eabi-4_8-2013q4/lib/gcc/arm-none-eabi/4.8.3//libgcc.a(_dvmd_tls.o)
+                              /home/egr/gcc-arm-none-eabi-4_8-2013q4/lib/gcc/arm-none-eabi/4.8.3//libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+
+Allocating common symbols
+Common symbol       size              file
+
+fnRAMVectors        0x200             /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 Debug/Conf_mod.o
+ .data          0x00000000        0x0 Debug/Conf_mod.o
+ .bss           0x00000000        0x0 Debug/Conf_mod.o
+ .text          0x00000000        0x0 Debug/GPIO.o
+ .data          0x00000000        0x0 Debug/GPIO.o
+ .bss           0x00000000        0x0 Debug/GPIO.o
+ .text          0x00000000        0x0 Debug/T2-A1.o
+ .data          0x00000000        0x0 Debug/T2-A1.o
+ .bss           0x00000000        0x0 Debug/T2-A1.o
+ .text          0x00000000        0x0 Debug/delay_ms.o
+ .data          0x00000000        0x0 Debug/delay_ms.o
+ .bss           0x00000000        0x0 Debug/delay_ms.o
+ .text.delay_us
+                0x00000000       0x4c Debug/delay_ms.o
+ .data          0x00000000        0x0 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(init.o)
+ .bss           0x00000000        0x0 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(init.o)
+ .text          0x00000000        0x0 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .data          0x00000000        0x0 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .bss           0x00000000        0x0 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntUnRegister
+                0x00000000       0x34 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntPrioritySet
+                0x00000000       0x54 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntSystemDisable
+                0x00000000       0x4c /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntIfClkFreeRunSet
+                0x00000000       0x30 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntIfClkAutoGateSet
+                0x00000000       0x30 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntActiveIrqNumGet
+                0x00000000       0x28 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntSpurIrqFlagGet
+                0x00000000       0x28 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntProtectionEnable
+                0x00000000       0x24 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntProtectionDisable
+                0x00000000       0x30 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntSyncClkFreeRunSet
+                0x00000000       0x30 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntSyncClkAutoGateSet
+                0x00000000       0x30 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntFuncClkFreeRunSet
+                0x00000000       0x30 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntFuncClkAutoGateSet
+                0x00000000       0x30 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntCurrIrqPriorityGet
+                0x00000000       0x28 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntPriorityThresholdGet
+                0x00000000       0x28 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntPriorityThresholdSet
+                0x00000000       0x30 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntRawStatusGet
+                0x00000000       0x4c /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntSoftwareIntSet
+                0x00000000       0x4c /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntSoftwareIntClear
+                0x00000000       0x4c /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntPendingIrqMaskedStatusGet
+                0x00000000       0x54 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntMasterIRQDisable
+                0x00000000       0x18 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntMasterFIQEnable
+                0x00000000       0x18 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntMasterFIQDisable
+                0x00000000       0x18 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntMasterStatusGet
+                0x00000000       0x20 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntDisable
+                0x00000000       0x3c /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text.IntEnable
+                0x00000000       0x38 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .text          0x00000000        0x0 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+ .data          0x00000000        0x0 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+ .bss           0x00000000        0x0 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+ .data          0x00000000        0x0 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cp15.o)
+ .bss           0x00000000        0x0 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cp15.o)
+ .text          0x00000000        0x0 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+ .data          0x00000000        0x0 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+ .bss           0x00000000        0x0 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+ .text.CPUSwitchToPrivilegedMode
+                0x00000000       0x18 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+ .text.CPUSwitchToUserMode
+                0x00000000       0x24 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+ .text.CPUAbortHandler
+                0x00000000       0x14 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+ .text.CPUIntStatus
+                0x00000000       0x2c /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+ .text.CPUirqd  0x00000000       0x20 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+ .text.CPUfiqd  0x00000000       0x20 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+ .text.CPUfiqe  0x00000000       0x20 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+ .data          0x00000000        0x0 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(exceptionhandler.o)
+ .bss           0x00000000        0x0 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(exceptionhandler.o)
+ .data          0x00000000        0x0 /home/egr/gcc-arm-none-eabi-4_8-2013q4/lib/gcc/arm-none-eabi/4.8.3//libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 /home/egr/gcc-arm-none-eabi-4_8-2013q4/lib/gcc/arm-none-eabi/4.8.3//libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 /home/egr/gcc-arm-none-eabi-4_8-2013q4/lib/gcc/arm-none-eabi/4.8.3//libgcc.a(_divsi3.o)
+ .bss           0x00000000        0x0 /home/egr/gcc-arm-none-eabi-4_8-2013q4/lib/gcc/arm-none-eabi/4.8.3//libgcc.a(_divsi3.o)
+ .data          0x00000000        0x0 /home/egr/gcc-arm-none-eabi-4_8-2013q4/lib/gcc/arm-none-eabi/4.8.3//libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 /home/egr/gcc-arm-none-eabi-4_8-2013q4/lib/gcc/arm-none-eabi/4.8.3//libgcc.a(_dvmd_tls.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD Debug/Conf_mod.o
+LOAD Debug/GPIO.o
+LOAD Debug/T2-A1.o
+LOAD Debug/delay_ms.o
+                0x80000000                . = 0x80000000
+                0x80000000                . = ALIGN (0x4)
+
+.startcode      0x80000000       0x98
+ *init.o(.text)
+ .text          0x80000000       0x98 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(init.o)
+                0x80000000                Entry
+                0x80000098                . = ALIGN (0x4)
+
+.text           0x80000098      0x7bc
+ *(.text)
+ .text          0x80000098      0x47c /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cp15.o)
+                0x80000098                CP15ICacheDisable
+                0x800000a8                CP15DCacheDisable
+                0x800000c4                CP15ICacheEnable
+                0x800000d4                CP15DCacheEnable
+                0x800000e4                CP15DCacheFlush
+                0x80000178                CP15DCacheClean
+                0x8000020c                CP15DCacheCleanFlush
+                0x800002a0                CP15ICacheFlush
+                0x800002b0                CP15DCacheCleanBuff
+                0x80000304                CP15DCacheCleanFlushBuff
+                0x80000358                CP15DCacheFlushBuff
+                0x800003bc                CP15ICacheFlushBuff
+                0x80000410                CP15Ttb0Set
+                0x8000041c                CP15TlbInvalidate
+                0x80000428                CP15MMUDisable
+                0x80000440                CP15MMUEnable
+                0x80000454                CP15VectorBaseAddrSet
+                0x80000460                CP15BranchPredictorInvalidate
+                0x8000046c                CP15BranchPredictionEnable
+                0x8000047c                CP15BranchPredictionDisable
+                0x8000048c                CP15DomainAccessClientSet
+                0x8000049c                CP15ControlFeatureDisable
+                0x800004b0                CP15ControlFeatureEnable
+                0x800004c4                CP15TtbCtlTtb0Config
+                0x800004d4                CP15AuxControlFeatureEnable
+                0x800004e8                CP15AuxControlFeatureDisable
+                0x800004fc                CP15MainIdPrimPartNumGet
+ .text          0x80000514       0xe0 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(exceptionhandler.o)
+                0x80000514                SVCHandler
+                0x8000053c                IRQHandler
+                0x800005d8                FIQHandler
+                0x800005dc                UndefInstHandler
+                0x800005dc                AbortHandler
+ .text          0x800005f4      0x114 /home/egr/gcc-arm-none-eabi-4_8-2013q4/lib/gcc/arm-none-eabi/4.8.3//libgcc.a(_udivsi3.o)
+                0x800005f4                __udivsi3
+                0x800005f4                __aeabi_uidiv
+                0x800006e8                __aeabi_uidivmod
+ .text          0x80000708      0x148 /home/egr/gcc-arm-none-eabi-4_8-2013q4/lib/gcc/arm-none-eabi/4.8.3//libgcc.a(_divsi3.o)
+                0x80000708                __aeabi_idiv
+                0x80000708                __divsi3
+                0x80000830                __aeabi_idivmod
+ .text          0x80000850        0x4 /home/egr/gcc-arm-none-eabi-4_8-2013q4/lib/gcc/arm-none-eabi/4.8.3//libgcc.a(_dvmd_tls.o)
+                0x80000850                __aeabi_ldiv0
+                0x80000850                __aeabi_idiv0
+
+.glue_7         0x80000854        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x80000854        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x80000854        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x80000854        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.text.PinMuxing
+                0x80000854      0x150
+ .text.PinMuxing
+                0x80000854      0x150 Debug/Conf_mod.o
+                0x80000854                PinMuxing
+
+.iplt           0x800009a4        0x0
+ .iplt          0x00000000        0x0 Debug/Conf_mod.o
+
+.text.EGR_GPIODirSet
+                0x800009a4       0x94
+ .text.EGR_GPIODirSet
+                0x800009a4       0x94 Debug/GPIO.o
+                0x800009a4                EGR_GPIODirSet
+
+.text.EGR_PinWrite
+                0x80000a38       0x94
+ .text.EGR_PinWrite
+                0x80000a38       0x94 Debug/GPIO.o
+                0x80000a38                EGR_PinWrite
+
+.text.EGR_PinRead
+                0x80000acc       0x60
+ .text.EGR_PinRead
+                0x80000acc       0x60 Debug/GPIO.o
+                0x80000acc                EGR_PinRead
+
+.text.myGPIO2Isr
+                0x80000b2c       0xbc
+ .text.myGPIO2Isr
+                0x80000b2c       0xbc Debug/T2-A1.o
+                0x80000b2c                myGPIO2Isr
+
+.text.main      0x80000be8      0x71c
+ .text.main     0x80000be8      0x71c Debug/T2-A1.o
+                0x80000be8                main
+
+.text.delay_ms  0x80001304       0x48
+ .text.delay_ms
+                0x80001304       0x48 Debug/delay_ms.o
+                0x80001304                delay_ms
+
+.text.IntDefaultHandler
+                0x8000134c       0x14
+ .text.IntDefaultHandler
+                0x8000134c       0x14 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+
+.text.IntRegister
+                0x80001360       0x34
+ .text.IntRegister
+                0x80001360       0x34 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+                0x80001360                IntRegister
+
+.text.IntAINTCInit
+                0x80001394       0x8c
+ .text.IntAINTCInit
+                0x80001394       0x8c /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+                0x80001394                IntAINTCInit
+
+.text.IntSystemEnable
+                0x80001420       0x4c
+ .text.IntSystemEnable
+                0x80001420       0x4c /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+                0x80001420                IntSystemEnable
+
+.text.IntMasterIRQEnable
+                0x8000146c       0x18
+ .text.IntMasterIRQEnable
+                0x8000146c       0x18 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+                0x8000146c                IntMasterIRQEnable
+
+.text.start_boot
+                0x80001484       0x24
+ .text.start_boot
+                0x80001484       0x24 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+                0x80001484                start_boot
+
+.text.CopyVectorTable
+                0x800014a8       0x98
+ .text.CopyVectorTable
+                0x800014a8       0x98 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+
+.text.CPUirqe   0x80001540       0x20
+ .text.CPUirqe  0x80001540       0x20 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+                0x80001540                CPUirqe
+
+.rodata.AM335X_VECTOR_BASE
+                0x80001560        0x4
+ .rodata.AM335X_VECTOR_BASE
+                0x80001560        0x4 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+                0x80001560                AM335X_VECTOR_BASE
+
+.rodata.vecTbl  0x80001564       0x38
+ .rodata.vecTbl
+                0x80001564       0x38 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+
+.rel.dyn        0x8000159c        0x0
+ .rel.iplt      0x00000000        0x0 Debug/Conf_mod.o
+                0x8000159c                . = ALIGN (0x4)
+
+.data
+ *(.data)
+
+.igot.plt       0x8000159c        0x0
+ .igot.plt      0x00000000        0x0 Debug/Conf_mod.o
+                0x8000159c                . = ALIGN (0x4)
+                0x8000159c                _bss_start = .
+
+.bss            0x8000159c      0x200
+ *(.bss)
+ COMMON         0x8000159c      0x200 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+                0x8000159c                fnRAMVectors
+                0x8000179c                . = ALIGN (0x4)
+                0x8000179c                _bss_end = .
+                0x87fffff8                _stack = 0x87fffff8
+LOAD /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a
+LOAD /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/utils/Debug/libutils.a
+LOAD /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a
+LOAD /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a
+LOAD /home/egr/gcc-arm-none-eabi-4_8-2013q4/arm-none-eabi/lib//libc.a
+LOAD /home/egr/gcc-arm-none-eabi-4_8-2013q4/lib/gcc/arm-none-eabi/4.8.3//libgcc.a
+LOAD /home/egr/gcc-arm-none-eabi-4_8-2013q4/arm-none-eabi/lib//libm.a
+LOAD /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/drivers/Debug/libdrivers.a
+LOAD /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/utils/Debug/libutils.a
+LOAD /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/beaglebone/platform/Debug/libplatform.a
+LOAD /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a
+LOAD /home/egr/gcc-arm-none-eabi-4_8-2013q4/arm-none-eabi/lib//libc.a
+LOAD /home/egr/gcc-arm-none-eabi-4_8-2013q4/lib/gcc/arm-none-eabi/4.8.3//libgcc.a
+LOAD /home/egr/gcc-arm-none-eabi-4_8-2013q4/arm-none-eabi/lib//libm.a
+OUTPUT(Debug/EGR_run.out elf32-littlearm)
+
+.bss.counter    0x8000179c        0x4
+ .bss.counter   0x8000179c        0x4 Debug/T2-A1.o
+                0x8000179c                counter
+
+.debug_info     0x00000000      0xa92
+ .debug_info    0x00000000       0x82 Debug/Conf_mod.o
+ .debug_info    0x00000082       0xe6 Debug/GPIO.o
+ .debug_info    0x00000168       0x85 Debug/T2-A1.o
+ .debug_info    0x000001ed       0x90 Debug/delay_ms.o
+ .debug_info    0x0000027d       0xa4 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(init.o)
+ .debug_info    0x00000321      0x44c /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .debug_info    0x0000076d       0xda /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+ .debug_info    0x00000847       0xa4 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cp15.o)
+ .debug_info    0x000008eb       0xf0 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+ .debug_info    0x000009db       0xb7 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(exceptionhandler.o)
+
+.debug_abbrev   0x00000000      0x426
+ .debug_abbrev  0x00000000       0x48 Debug/Conf_mod.o
+ .debug_abbrev  0x00000048       0x62 Debug/GPIO.o
+ .debug_abbrev  0x000000aa       0x7a Debug/T2-A1.o
+ .debug_abbrev  0x00000124       0x76 Debug/delay_ms.o
+ .debug_abbrev  0x0000019a       0x14 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(init.o)
+ .debug_abbrev  0x000001ae      0x14b /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .debug_abbrev  0x000002f9       0xa7 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+ .debug_abbrev  0x000003a0       0x14 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cp15.o)
+ .debug_abbrev  0x000003b4       0x5e /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+ .debug_abbrev  0x00000412       0x14 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(exceptionhandler.o)
+
+.debug_aranges  0x00000000      0x290
+ .debug_aranges
+                0x00000000       0x20 Debug/Conf_mod.o
+ .debug_aranges
+                0x00000020       0x30 Debug/GPIO.o
+ .debug_aranges
+                0x00000050       0x28 Debug/T2-A1.o
+ .debug_aranges
+                0x00000078       0x28 Debug/delay_ms.o
+ .debug_aranges
+                0x000000a0       0x20 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(init.o)
+ .debug_aranges
+                0x000000c0      0x110 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .debug_aranges
+                0x000001d0       0x28 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+ .debug_aranges
+                0x000001f8       0x20 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cp15.o)
+ .debug_aranges
+                0x00000218       0x58 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+ .debug_aranges
+                0x00000270       0x20 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(exceptionhandler.o)
+
+.debug_ranges   0x00000000      0x1d8
+ .debug_ranges  0x00000000       0x10 Debug/Conf_mod.o
+ .debug_ranges  0x00000010       0x20 Debug/GPIO.o
+ .debug_ranges  0x00000030       0x18 Debug/T2-A1.o
+ .debug_ranges  0x00000048       0x18 Debug/delay_ms.o
+ .debug_ranges  0x00000060      0x108 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .debug_ranges  0x00000168       0x20 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+ .debug_ranges  0x00000188       0x50 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+
+.debug_line     0x00000000      0x868
+ .debug_line    0x00000000       0x50 Debug/Conf_mod.o
+ .debug_line    0x00000050       0x6c Debug/GPIO.o
+ .debug_line    0x000000bc       0xa5 Debug/T2-A1.o
+ .debug_line    0x00000161       0x60 Debug/delay_ms.o
+ .debug_line    0x000001c1       0x81 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(init.o)
+ .debug_line    0x00000242      0x294 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .debug_line    0x000004d6       0x82 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+ .debug_line    0x00000558      0x187 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cp15.o)
+ .debug_line    0x000006df       0xde /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+ .debug_line    0x000007bd       0xab /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(exceptionhandler.o)
+
+.debug_str      0x00000000      0x629
+ .debug_str     0x00000000      0x140 Debug/Conf_mod.o
+ .debug_str     0x00000140       0x63 Debug/GPIO.o
+                                0x155 (size before relaxing)
+ .debug_str     0x000001a3       0x30 Debug/T2-A1.o
+                                0x122 (size before relaxing)
+ .debug_str     0x000001d3       0x29 Debug/delay_ms.o
+                                0x10d (size before relaxing)
+ .debug_str     0x000001fc      0x318 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+                                0x333 (size before relaxing)
+ .debug_str     0x00000514       0x76 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+                                 0xe8 (size before relaxing)
+ .debug_str     0x0000058a       0x9f /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+                                0x103 (size before relaxing)
+
+.comment        0x00000000       0xf1
+ .comment       0x00000000       0x70 Debug/Conf_mod.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 Debug/GPIO.o
+ .comment       0x00000000       0x71 Debug/T2-A1.o
+ .comment       0x00000000       0x71 Debug/delay_ms.o
+ .comment       0x00000070       0x2b /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .comment       0x0000009b       0x2b /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+ .comment       0x000000c6       0x2b /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+
+.ARM.attributes
+                0x00000000       0x35
+ .ARM.attributes
+                0x00000000       0x37 Debug/Conf_mod.o
+ .ARM.attributes
+                0x00000037       0x37 Debug/GPIO.o
+ .ARM.attributes
+                0x0000006e       0x37 Debug/T2-A1.o
+ .ARM.attributes
+                0x000000a5       0x37 Debug/delay_ms.o
+ .ARM.attributes
+                0x000000dc       0x23 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(init.o)
+ .ARM.attributes
+                0x000000ff       0x33 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .ARM.attributes
+                0x00000132       0x33 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+ .ARM.attributes
+                0x00000165       0x23 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cp15.o)
+ .ARM.attributes
+                0x00000188       0x33 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+ .ARM.attributes
+                0x000001bb       0x23 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(exceptionhandler.o)
+ .ARM.attributes
+                0x000001de       0x18 /home/egr/gcc-arm-none-eabi-4_8-2013q4/lib/gcc/arm-none-eabi/4.8.3//libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x000001f6       0x18 /home/egr/gcc-arm-none-eabi-4_8-2013q4/lib/gcc/arm-none-eabi/4.8.3//libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x0000020e       0x18 /home/egr/gcc-arm-none-eabi-4_8-2013q4/lib/gcc/arm-none-eabi/4.8.3//libgcc.a(_dvmd_tls.o)
+
+.debug_frame    0x00000000      0x574
+ .debug_frame   0x00000000       0x28 Debug/Conf_mod.o
+ .debug_frame   0x00000028       0x58 Debug/GPIO.o
+ .debug_frame   0x00000080       0x48 Debug/T2-A1.o
+ .debug_frame   0x000000c8       0x40 Debug/delay_ms.o
+ .debug_frame   0x00000108      0x314 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .debug_frame   0x0000041c       0x48 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+ .debug_frame   0x00000464       0xd0 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+ .debug_frame   0x00000534       0x20 /home/egr/gcc-arm-none-eabi-4_8-2013q4/lib/gcc/arm-none-eabi/4.8.3//libgcc.a(_udivsi3.o)
+ .debug_frame   0x00000554       0x20 /home/egr/gcc-arm-none-eabi-4_8-2013q4/lib/gcc/arm-none-eabi/4.8.3//libgcc.a(_divsi3.o)
+
+.debug_loc      0x00000000      0x6e3
+ .debug_loc     0x00000000      0x535 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .debug_loc     0x00000535       0x56 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+ .debug_loc     0x0000058b      0x158 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
+
+.debug_pubnames
+                0x00000000      0x3a1
+ .debug_pubnames
+                0x00000000      0x2cc /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(interrupt.o)
+ .debug_pubnames
+                0x000002cc       0x38 /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(startup.o)
+ .debug_pubnames
+                0x00000304       0x9d /home/egr/AM335X_StarterWare_02_00_01_01/binary/armv7a/gcc/am335x/system_config/Debug/libsystem_config.a(cpu.o)
